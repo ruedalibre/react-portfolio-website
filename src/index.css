@@ -24,6 +24,7 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
+    /* Esta transición se puede aplicar para variados usos, por ejemplo movimientos o hover */
     --transition: all 400ms ease;
 
     /* Ancho de la clase contenedor para los diferentes tamaños de pantalla */
@@ -70,7 +71,6 @@ h1 {
 /* Estilos para las diferentes secciones */
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 /* Estilos para títulos de las secciones */

@@ -47,6 +47,7 @@
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
 .about__icon {
@@ -102,7 +103,7 @@
         text-align: center;
     }
     .about__content p {
-        margin: 1.5rem;
+        margin: 1.5rem 0;
     }
 
 }
