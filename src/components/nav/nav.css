@@ -1,0 +1,41 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    /* El nav reemplaza el menú superior, entonces debe quedar fijada en la parte inferior para facilitar la navegación */
+    position: fixed;
+    /* Mueve el margen hasta mitad de pantalla desde la izquierda */
+    left: 50%;
+    /* Devuelve el elemento en un 50% de su ancho total (no del ancho de pantalla) para quedar centrado en la pantalla */
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    /* Oscurece el fondo de los íconos al hacer hover */
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Establecer cuál va a ser la clase activa por defecto, en este caso home */
+nav a.active {
+    background: var(--color-bg);
+    /* Este cambio de color mantendrá el ícono de home diferenciado de los demás */
+    color: var(--color-white)
+}
+
+

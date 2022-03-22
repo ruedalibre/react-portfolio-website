@@ -70,6 +70,7 @@ h1 {
 /* Estilos para las diferentes secciones */
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 /* Estilos para títulos de las secciones */
