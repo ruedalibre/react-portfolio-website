@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
 import {IoLogoWhatsapp} from 'react-icons/io'
+/* Imports para usar el servicio de Email de emailjs */
+import { userRef} from 'react'
+import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
+  const form = useRef();
+  /* El código de esta constante está en la página de emailjs */
+  const sendEmail = (e) => {
+    e.preventDefault();
+    /* los datos entre paréntesis están en mi cuenta de emailjs */
+    emailjs.sendForm('service_qtcpehj', 'template_19e97l4', form.current, 'HnGC5bpinEOkk4y-W')
+
+    e.target.reset()
+  };
+  /* ============ Hasta aquí código de emailjs =============*/
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -34,7 +47,8 @@ const Contact = () => {
 
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action="">
+        {/* Estas {form} y {sendEmail} los toma de la const creadas al inicio del componente */}
+        <form ref={form} onSubmit={sendEmail}> 
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
