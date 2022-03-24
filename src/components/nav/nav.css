@@ -33,9 +33,9 @@ nav a:hover {
 
 /* Establecer cuál va a ser la clase activa por defecto, en este caso home */
 nav a.active {
-    background: var(--color-bg);
+    background: var(--color-primary);
     /* Este cambio de color mantendrá el ícono de home diferenciado de los demás */
-    color: var(--color-white)
+    color: var(--color-bg);
 }
 
 
