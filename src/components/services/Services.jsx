@@ -17,19 +17,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Design, build, support, and evolve web-based software.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Development of both the front and back end of web applications using the most effective programming languages and technologies for each case.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>MERN Stack: MongoDB, Express, ReactJS, and Node.js. Django Stack: Django, Python, and MySQL as Database.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>AWS Cloud</p>
             </li>
           </ul>
         </article>
