@@ -15,22 +15,23 @@ const Services = () => {
           </div>
 
           <ul className='service__list'>
-            <li>
+          <li>
               <BiCheck className='service__list-icon'/>
-              <p>Design, build, support, and evolve web-based software.</p>
+              <p>Experience in the most effective languages and technologies for both the frontend and the backend - MERN STACK</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Development of both the front and back end of web applications using the most effective programming languages and technologies for each case.</p>
+              <p>Assist development management with all aspects of software design and coding.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>MERN Stack: MongoDB, Express, ReactJS, and Node.js. Django Stack: Django, Python, and MySQL as Database.</p>
+              <p>Increasing users engagement providing businesses with a competitive advantage.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>AWS Cloud</p>
+              <p>Offering customized solutions to the user's needs with a seamless and robust web experience.</p>
             </li>
+           
           </ul>
         </article>
         {/* END OF WEB DEVELPMENT */}
@@ -43,19 +44,15 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Processing and interpreting data to enable companies to make data-driven decisions around growth, optimization and performance.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Leveraging the power of machine learning to enable companies to create a better customer experiences and produce goods and products that customers will adore.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Offering insights that can illuminate companies trajectories toward their ultimate business goals.</p>
             </li>
           </ul>
         </article>
@@ -63,25 +60,21 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Research and Education</h3>
+            <h3>Business Anthropology</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Lead companies to a deeper understanding of human relations and culture in the context of consumption through methodologies and tools from the social sciences.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Delving into the motivations and reasons of users beyond demographics to identify insights that can explain their opinions and behaviors.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Improving UX by using this knowledge to create rewarding and satisfying solutions that fit the user's expectations and needs.</p>
             </li>
           </ul>
         </article>
