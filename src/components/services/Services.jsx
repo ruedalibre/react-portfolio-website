@@ -17,7 +17,11 @@ const Services = () => {
           <ul className='service__list'>
           <li>
               <BiCheck className='service__list-icon'/>
-              <p>Experience in the most effective languages and technologies for both the frontend and the backend - MERN STACK</p>
+              <p>Experience in the most effective languages and technologies for both the frontend and the backend - MERN STACK.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Excellent basic knowledge about Information Technology from a software perspective.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -25,11 +29,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Increasing users engagement providing businesses with a competitive advantage.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Offering customized solutions to the user's needs with a seamless and robust web experience.</p>
+              <p>Working on defined features previously delineated by senior software developers with a proactive approach.</p>
             </li>
            
           </ul>
@@ -44,15 +44,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Processing and interpreting data to enable companies to make data-driven decisions around growth, optimization and performance.</p>
+              <p>Experience in the most effective languages and technologies for data analysis and machine learning - PYTHON STACK.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Leveraging the power of machine learning to enable companies to create a better customer experiences and produce goods and products that customers will adore.</p>
+              <p>Database knowledge to carry out data analysis with the data stored in relational databases - AWS and Oracle Cloud.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Offering insights that can illuminate companies trajectories toward their ultimate business goals.</p>
+              <p>Data Wrangling: cleaning, manipulating, and organizing data for easy Data Analysis.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Data visualization to integrate datasets, analyze models, and visualize them using graphs and charts.</p>
             </li>
           </ul>
         </article>
@@ -66,11 +70,11 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lead companies to a deeper understanding of human relations and culture in the context of consumption through methodologies and tools from the social sciences.</p>
+              <p>Bringing a deeper understanding of the human culture in the context of online consumption using methodologies and tools from the social sciences.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Delving into the motivations and reasons of users beyond demographics to identify insights that can explain their opinions and behaviors.</p>
+              <p>Delving into the motivations and reasons of users to identify insights that can explain their choices and behaviors.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
