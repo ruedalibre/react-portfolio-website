@@ -15,27 +15,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Personaje 1',
+    name: 'Diana Sofía Zuluaga',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto minima velit, nam, pariatur ut fuga, temporibus nemo sapiente suscipit id repellat eius rerum sit consequuntur expedita mollitia fugit voluptatum?'
-
   },
   {
     avatar: AVTR2,
-    name: 'Personaje 2',
+    name: 'Mauricio López',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto minima velit, nam, pariatur ut fuga, temporibus nemo sapiente suscipit id repellat eius rerum sit consequuntur expedita mollitia fugit voluptatum?'
-
   },
   {
     avatar: AVTR3,
-    name: 'Personaje 3',
+    name: 'Alejandra Montoya',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto minima velit, nam, pariatur ut fuga, temporibus nemo sapiente suscipit id repellat eius rerum sit consequuntur expedita mollitia fugit voluptatum?'
-
   },
   {
     avatar: AVTR4,
-    name: 'Personaje 4',
+    name: 'Lina Tamayo',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto minima velit, nam, pariatur ut fuga, temporibus nemo sapiente suscipit id repellat eius rerum sit consequuntur expedita mollitia fugit voluptatum?'
-
   },
   
 ]

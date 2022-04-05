@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -13,44 +13,44 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Expense Tracker App',
-    github: 'https://github.com/ruedalibre/react_projects',
-    demo: 'https://github.com/ruedalibre/'
+    github: 'https://github.com/ruedalibre/react_projects/tree/master/projects/expense-tracker-app',
+    demo: 'https://expend-tracker-app.web.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Expense Tracker App',
-    github: 'https://github.com/ruedalibre/react_projects',
-    demo: 'https://github.com/ruedalibre/'
+    title: 'Check List App',
+    github: 'https://github.com/ruedalibre/react_projects/tree/master/projects/check_list_app',
+    demo: 'https://check-list-app-45cf6.web.app'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Expense Tracker App',
-    github: 'https://github.com/ruedalibre/react_projects',
-    demo: 'https://github.com/ruedalibre/'
+    title: 'Online Store Redux App',
+    github: 'https://github.com/ruedalibre/react_projects/tree/master/projects/online_store_redux-app',
+    demo: 'https://online-store-redux-app.web.app/'
   },
   {
     id: 4,
-    image: IMG4,
-    title: 'Expense Tracker App',
-    github: 'https://github.com/ruedalibre/react_projects',
-    demo: 'https://github.com/ruedalibre/'
+    image: IMG5,
+    title: 'Blog App',
+    github: 'https://github.com/ruedalibre/react_projects/tree/master/projects/blog_app',
+    demo: 'https://blog-app-303e0.web.app/'
   },
   {
     id: 5,
-    image: IMG5,
-    title: 'Expense Tracker App',
-    github: 'https://github.com/ruedalibre/react_projects',
-    demo: 'https://github.com/ruedalibre/'
+    image: IMG6,
+    title: 'Context Api App',
+    github: 'https://github.com/ruedalibre/react_projects/tree/master/projects/context_api_project',
+    demo: 'https://context-api-app.web.app/'
   },
   {
     id: 6,
-    image: IMG6,
-    title: 'Expense Tracker App',
-    github: 'https://github.com/ruedalibre/react_projects',
-    demo: 'https://github.com/ruedalibre/'
-  },
+    image: IMG4,
+    title: 'Eleven Question Quiz App',
+    github: 'https://github.com/ruedalibre/eleven-question-quiz-app',
+    demo: 'https://github.com/ruedalibre/eleven-question-quiz-app'
+  }
   
 ]
 
