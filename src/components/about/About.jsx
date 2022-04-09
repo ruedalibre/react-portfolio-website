@@ -39,7 +39,8 @@ const About = () => {
             </article>
           </div>
 
-          <p>I'm a social scientist with experience in quantitative and qualitative research methodologies and tools. After completing my master's degree I started to incorporate programming and data science into my daily work to update my knowledge and skills by learning new technologies and languages to manipulate, analyze and visualize data. <br/> Today I have experience as a fullstack developer and as a data scientist with an emphasis on mobile development and machine learning. I would like to join a company that gives me the opportunity to put all this experience into practice and continue developing my career.
+          <p>I have background as a research scientist with experience in quantitative and qualitative methodologies and tools. Since 2018 I have incorporated programming and data science into my daily work to improve my skills by learning new technologies and languages to create web applications, and manipulate and analyze data. Today I have experience as a frontend developer and as a data scientist with an emphasis on mobile development and machine learning, respectively. I would like to join a company that gives me the opportunity to put all this experience into practice and continue developing my career.
+
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
