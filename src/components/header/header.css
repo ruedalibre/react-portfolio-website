@@ -46,7 +46,7 @@ header {
     /* Fondo con degradado lineal en sentido horizontal, de color primario a transparente */
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 23rem;
     position: absolute;
     /* Recorta y centra la imagen */
     left: calc(50% - 11rem);
@@ -72,19 +72,26 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        height: 50vh;
+        padding-top: 5rem;
+    }
+    .me {
+        display: none;
     }
 }
 
 /* ========= MEDIA QUERIES (Small devices) ========== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     header {
-        height: 90vh;
+        height: 50vh;
         padding-top: 2rem;
     }
     /* Esconde redes sociales y scroller móviles */
     .header__socials, .scroll__down {
+        display: none;
+    }
+    .me {
         display: none;
     }
 
