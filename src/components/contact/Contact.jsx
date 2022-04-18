@@ -4,7 +4,6 @@ import {MdEmail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
 import {IoLogoWhatsapp} from 'react-icons/io'
 /* Imports para usar el servicio de Email de emailjs */
-import { userRef} from 'react'
 import emailjs from 'emailjs-com'
 
 
@@ -30,19 +29,19 @@ const Contact = () => {
             <MdEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>andresruedalibre@gmail.com</h5>
-            <a href="mailto:andresruedalibre@gmail.com" target='_blank'>Send Email</a>
+            <a href="mailto:andresruedalibre@gmail.com" target='_blank' rel="noreferrer">Send Email</a>
           </article>
           <article className="contact__option">
             <BsLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>andres-perez-develop</h5>
-            <a href="https://www.linkedin.com/in/andres-perez-develop/" target='_blank'>Add Me To Your Network</a>
+            <a href="https://www.linkedin.com/in/andres-perez-develop/" target='_blank' rel="noreferrer">Add Me To Your Network</a>
           </article>
           <article className="contact__option">
             <IoLogoWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>(+57) 324 3585922</h5>
-            <a href="https://api.whatsapp.com/send?phone=+573243585922" target='_blank'>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+573243585922" target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
         </div>

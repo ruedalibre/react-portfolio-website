@@ -73,7 +73,7 @@ const Portfolio = () => {
               <div className="portfolio__item-cta">
                 <a href={github} className='btn'>Github</a>
                 {/* Al agregar el target blank abrirá la página del demo en una nueva pestaña */}
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
               </div>
               </article>
             )
