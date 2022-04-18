@@ -54,7 +54,7 @@ header {
     /* Redondeado fotografía parte superior */
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ================== SCROLL DOWN ================== */
@@ -72,7 +72,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
 }
 

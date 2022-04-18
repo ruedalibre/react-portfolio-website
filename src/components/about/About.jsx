@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/DSCF0204_opt_cuadrada.jpg'
 import {BsFillFileEarmarkCheckFill} from 'react-icons/bs'
 import {FaHandshake} from 'react-icons/fa'
 import {GoProject} from 'react-icons/go'
