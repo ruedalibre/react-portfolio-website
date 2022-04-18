@@ -3,7 +3,6 @@ import './testimonials.css'
 import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
 
 /* Usaré la librería Swiper para crear el slide show con los testimonios */
 import { Pagination } from 'swiper';
@@ -27,13 +26,7 @@ const data = [
     avatar: AVTR3,
     name: 'Alejandra Montoya',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto minima velit, nam, pariatur ut fuga, temporibus nemo sapiente suscipit id repellat eius rerum sit consequuntur expedita mollitia fugit voluptatum?'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Lina Tamayo',
-    review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto minima velit, nam, pariatur ut fuga, temporibus nemo sapiente suscipit id repellat eius rerum sit consequuntur expedita mollitia fugit voluptatum?'
-  },
-  
+  }
 ]
 
 const Testimonials = () => {

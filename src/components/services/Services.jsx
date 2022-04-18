@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import {BsCheckLg} from 'react-icons/bs'
 
 const Services = () => {
   return (
@@ -16,19 +16,19 @@ const Services = () => {
 
           <ul className='service__list'>
           <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Experience in the most effective languages and technologies for both the frontend and the backend - MERN STACK.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Excellent basic knowledge about Information Technology from a software perspective.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Assisting development management with all aspects of software design and coding.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Working on defined features previously delineated by senior software developers with a proactive approach.</p>
             </li>
            
@@ -43,19 +43,19 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Experience in the most effective languages and technologies for data analysis and machine learning - PYTHON STACK.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Database knowledge to carry out data analysis with the data stored in relational databases - AWS and Oracle Cloud.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Data Wrangling: cleaning, manipulating, and organizing data for easy Data Analysis.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Data visualization to integrate datasets, analyze models, and visualize them using graphs and charts.</p>
             </li>
           </ul>
@@ -69,15 +69,15 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Bringing a deeper understanding of the human culture in the context of online consumption using methodologies and tools from the social sciences.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Delving into the motivations and reasons of users to identify insights that can explain their choices and behaviors.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <BsCheckLg className='service__list-icon'/>
               <p>Improving UX by using this knowledge to create rewarding and satisfying solutions that fit the user's expectations and needs.</p>
             </li>
           </ul>

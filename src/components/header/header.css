@@ -80,7 +80,7 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 90vh;
     }
     /* Esconde redes sociales y scroller móviles */
     .header__socials, .scroll__down {
