@@ -72,20 +72,20 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 50vh;
+        height: 100vh;
         padding-top: 5rem;
     }
-    .me {
+    /* .me {
         display: none;
-    }
+    } */
 }
 
 /* ========= MEDIA QUERIES (Small devices) ========== */
 
 @media screen and (max-width: 720px) {
     header {
-        height: 50vh;
-        padding-top: 2rem;
+        height: 70vh;
+        padding-top: 5rem;
     }
     /* Esconde redes sociales y scroller móviles */
     .header__socials, .scroll__down {
